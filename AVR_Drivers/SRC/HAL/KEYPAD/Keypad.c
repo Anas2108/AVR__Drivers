@@ -36,7 +36,7 @@ for(u8 col=0;col<4;col++)
 
 		  KeyPadResult=KeyPadValues[col][row];
 
-		  while(DIO_u8GetPinValue(DIO_u8_PORTD,row+4)==0); // to save value after rafa3t soba3ak
+		  while(DIO_u8GetPinValue(DIO_u8_PORTD,row+4)==0); // to save value after press the switch not while pressing it
 
 	         _delay_ms(10);
 
